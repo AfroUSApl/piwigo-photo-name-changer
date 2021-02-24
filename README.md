@@ -17,7 +17,8 @@ As I have mouniting points in TrueNAS instead of having all photos in Piwigo, I 
  /usr/local/www/Piwigo/galleries/my_folders_2
  /usr/local/www/Piwigo/galleries/my_folders_3
  /usr/local/www/Piwigo/galleries/my_folders_4
+
 Execute with 
-<pre>bash whitespace.sh /my_folders_1</pre>
+`bash whitespace.sh /my_folders_1`
 
 I dont remember why I split this directory tree into two separate commands, but this must be something with volume of photos.
