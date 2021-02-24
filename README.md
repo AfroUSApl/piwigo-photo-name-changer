@@ -13,12 +13,12 @@ I manage to write 6 bash scripts to make this automatic. I have over 57k, so thi
 `whitespace2.sh` will do the same thing, but in two folders depth from the main and change space in _
 
 As I have mouniting points in TrueNAS instead of having all photos in Piwigo, I have all photos inside<br>
- /usr/local/www/Piwigo/galleries/my_folders_1<br>
- /usr/local/www/Piwigo/galleries/my_folders_2<br>
- /usr/local/www/Piwigo/galleries/my_folders_3<br>
- /usr/local/www/Piwigo/galleries/my_folders_4
+ /usr/local/www/Piwigo/galleries/my_folder_1<br>
+ /usr/local/www/Piwigo/galleries/my_folder_2<br>
+ /usr/local/www/Piwigo/galleries/my_folder_3<br>
+ /usr/local/www/Piwigo/galleries/my_folder_4
 
 Execute with 
-`bash whitespace.sh /my_folders_1`
+`bash whitespace.sh /my_folder_1`
 
 I dont remember why I split this directory tree into two separate commands, but this must be something with volume of photos.
